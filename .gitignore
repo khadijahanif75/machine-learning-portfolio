@@ -1,0 +1,87 @@
+# ==========================================
+# 1. Conda & Virtual Environments
+# ==========================================
+# Local environment folders
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda environment directory & files
+.conda/
+envs/
+*.conda
+*.tar.bz2
+
+# ==========================================
+# 2. Jupyter Notebooks & IDE Cache
+# ==========================================
+# Jupyter Notebook checkpoints & cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+
+# VS Code settings & cache
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains IDEs
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 3. Python Compiled Files & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# ==========================================
+# 4. Machine Learning & Data Files
+# ==========================================
+# Datasets (Large data files ko push hone se roken)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.data
+*.zip
+*.tar.gz
+
+# Saved Machine Learning Models & Weights
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pth
+*.pt
+*.onnx
+*.bin
+*.model
+*.pb
+
+# Logs & Metrics Tracking
+*.log
+mlruns/
+wandb/
+.tensorboard/
+
+# ==========================================
+# 5. Environment Variables & Credentials
+# ==========================================
+# API Keys aur Secrets
+.env
+.env.local
+*.secret
